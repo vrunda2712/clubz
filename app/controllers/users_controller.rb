@@ -7,6 +7,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      flash[:alert] = "Signup successful!"
       redirect_to clubs_path
     else
       render :new

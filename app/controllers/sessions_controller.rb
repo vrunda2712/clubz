@@ -15,6 +15,7 @@ class SessionsController < ApplicationController
 
   def destroy
     logout
+    flash[:alert] = "Logged out."
     redirect_to(:clubs, notice: 'Logged out!')
   end
 
