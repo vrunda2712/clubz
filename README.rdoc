@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Clubz
 
-Things you may want to cover:
+We'll use this app as a base for exporing some more tools and techniques for authentication and authorization.
 
-* Ruby version
+Steps:
 
-* System dependencies
+* Clone this repo and navigate to that folder
 
-* Configuration
+* Run bundle install
 
-* Database creation
+* Run your database setup
 
-* Database initialization
+* Make sure your seeds are populated
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
