@@ -10,7 +10,7 @@ We'll use this app as a base for exporing some more tools and techniques for aut
 - Droids and gangsters are not allowed into any clubs unfortunately
 - Wizards and hobbits are always welcome in all clubs.
 
-Steps:
+==== Steps:
 
 * Clone this repo and navigate to that folder
 
