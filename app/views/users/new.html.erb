@@ -1,19 +1,10 @@
 <h1>Sign Up</h1>
 
-<% if @user.errors.any? %>
-  <p>Oops - there were problems with your submission. Please fix the following:</p>
-  <ul>
-    <% @user.errors.full_messages.each do |message| %>
-      <li><%= message %></li>
-    <% end %>
-  </ul>
-<% end %>
-
 <%= form_for @user do |f| %>
 
   <div>
-    <%= f.label :email %> <br />
-    <%= f.text_field :email %>
+    <%= f.label :name %> <br />
+    <%= f.text_field :name %>
   </div>
 
   <div>
