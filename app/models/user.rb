@@ -4,4 +4,6 @@ class User < ApplicationRecord
   has_many :clubs
 
   validates :name, presence: true, uniqueness: true
+
+  ALLOWED_ROLES = ["wizard","hobiit"]
 end
